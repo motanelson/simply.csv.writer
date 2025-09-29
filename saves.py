@@ -10,6 +10,7 @@ def saves(files,arrays):
              else:
                  f1.write(str(nn))
              l=True
-        f1.write("\n")                
+        f1.write("\n")
+    f1.close()                
 a=[['arm', 'arm6'], ['arm', 'arm7'], ['x86', '8086'], ['x86', '80186'], ['x86', '80286'], ['x86', '80386'], ['x86', '80486']]
 saves("my.csv",a)
